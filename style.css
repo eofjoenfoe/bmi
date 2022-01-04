@@ -1,0 +1,254 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+}
+.header {
+    width: 300px;
+    float: right;
+    text-align: center;
+}
+.logo{
+    width: 100px;
+}
+h1{
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: -10px;
+    text-transform: uppercase;
+ }
+
+ main {
+     clear: both;
+     width: 75%;
+     margin: 0 auto ;
+ }
+ #div1 {
+     padding-top: 50px;
+ }
+ h2 {
+     font-size: 30px;
+ }
+ label, p {
+     font-size: 22px;
+     line-height: 1.5;
+ }
+ #div2 {
+    width: 500px;
+    background-image: linear-gradient(120deg,#a7ff38,#d9ff38);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px #ff2e4d;
+    margin: 90px auto;
+    text-align: center;
+    }
+.text {
+    text-align: left;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+    #w, #h{
+        color: #222f3e;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 200;
+        outline: none;
+        border: none;
+        background-image: linear-gradient(120deg,#d9ff38,#a7ff38);
+        border-bottom: 1px solid #341f97;
+        width: 200px;
+        font-family: "Times New Roman";
+        }
+    
+    
+    
+        #w:focus, #h:focus{
+            border-bottom: 2px solid red;
+            width: 220px;
+            transition: 0.8s;
+            box-shadow: 1px 1px 20px #ff2e4d;
+        }
+
+        #btn{
+            font-family: inherit;
+            margin-top: 10px;
+            border: none;
+            color: #333333;
+            background-image: linear-gradient(120deg,#d9ff38,#a7ff38);
+            width: 150px;
+            padding: 10px;
+            border-radius: 30px;
+            outline: none;
+            cursor: pointer;
+            transition: 0.8s;
+            font-size: 15px;
+        
+        
+            }
+            #btn:hover{
+                box-shadow: 1px 1px 10px #f00a00;
+
+                }
+
+.table {
+    border: lightgrey 1px solid;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 0;
+    background-color: rgb(240, 235, 235);
+
+}
+.table p {
+    background-color: lightslategrey;
+    color: white;
+    margin-top: 0;
+    text-align: center;
+    padding: 20px;
+}
+
+
+table th {
+    font-size: 24px;
+}
+table td {
+    font-size: 22px;
+}
+
+
+
+/* 
+    #div1 {
+
+
+
+    position: relative;
+    padding: 10px;
+    left: 50%;
+    width: 800px;
+    height: 150px;
+    text-align: justify;
+    border-radius: 10px;
+    transform: translate(-50%, 50%);
+    font-size: 24px;
+    }
+
+    #div2 {
+    width: 500px;
+    position: relative;
+    top: 80%;
+    left: 50%;
+    height: 500px;
+    background-image: linear-gradient(120deg,#a7ff38,#d9ff38);
+    transform: translate(-50%, 50%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px #ff2e4d;
+
+    } */
+
+    /* #div3 {
+    position: relative;
+    padding: 10px;
+    left: 50%;
+    top: 40%;
+    width: 800px;
+    height: 700px;
+    text-align: justify;
+    border-radius: 10px;
+    transform: translate(-50%, 50%);
+    font-size: 24px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    } */
+
+
+
+    /* #div4 {
+    position: relative;
+    padding: 10px;
+    left: 50%;
+    width: 800px;
+    height: 100px;
+    text-align: justify;
+    border-radius: 10px;
+    transform: translate(-50%, 50%);
+    font-size: 24px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    }
+
+    #div5 {
+    padding: 10px;
+    width: 800px;
+    height: 100px;
+    text-align: justify;
+    border-radius: 10px;
+    transform: translate(-50%, 50%);
+    font-size: 24px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    } */
+
+/*     
+    .p1 {
+
+    text-transform: capitalize;
+    font-size: 27px;
+    font-family: "Times New Roman";
+
+    }
+
+    h2{
+    font-size: 30px;
+    font-weight: 600;
+    }
+
+
+
+    .text{
+    text-align: left;
+    margin-left: 150px;
+    }
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+   
+
+
+
+    #info{
+
+
+
+    font-size: 10px;
+
+    font-family: inherit;
+
+
+
+    }
+
+    table, td, th {
+      border: 2px solid black;
+       border-radius: 12px;
+
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 80%;
+
+    } */

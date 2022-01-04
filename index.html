@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI berekenen</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://thumbs.dreamstime.com/b/bmi-body-mass-index-pictogram-illustratie-vector-157560949.jpg"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <div class="header">
+      <img
+        class="logo"
+        src="https://thumbs.dreamstime.com/b/bmi-body-mass-index-pictogram-illustratie-vector-157560949.jpg"
+      />
+      <h1><i>BMI berekenen</i></h1>
+    </div>
+
+   <main>
+    <div id="div1">
+      <h2> Wat is de BMI? </h2>
+      <p>De BMI (Body Mass Index) is een internationaal gebruikte maat die laat
+        zien of je een gezond gewicht hebt in verhouding tot je lengte. De BMI
+        geeft een inschatting van hoe gezond je lichaamsgewicht is. Je kunt de BMI
+        berekenen voor vrouwen, mannen en kinderen vanaf 2 jaar. De BMI is minder
+        geschikt voor als je heel gespierd bent, zwanger bent, borstvoeding geeft
+        of van Aziatische afkomst bent. Je middelomtrek geeft een inschatting van
+        de vetverdeling in je lichaam. Ieder lichaam is anders. Twijfel je of de
+        uitslag wel bij jou past? Of wil je een persoonlijk advies over je
+        gewicht? Ga dan naar je huisarts.</p>
+    </div>
+
+    <div id="div2">
+      <h2><i>Bereken je BMI</i></h2>
+      <input
+        type="radio"
+        id="rbMale"
+        name="gender"
+        value="man"
+        class="gender"
+      />
+      <label for="rbMale">Man</label>
+      <input
+        type="radio"
+        id="rbFemale"
+        name="gender"
+        value="woman"
+        class="gender"
+      />
+      <label  for="rbFemale">vrouw</label>
+
+      <p class="text">Lengte</p>
+      <input type="number" placeholder="100-250" id="h" />
+
+      <p class="text">Gewicht</p>
+      <input type="number" placeholder="30-300" id="w" />
+
+      <p id="result"></p>
+      <button id="btn" onClick="BMI()"><b>Berekenen</b></button>
+    </div>
+
+    <div class="table">
+      <p ><b> Uitslag BMI volwassenen 19-69 jaar: </b></p>
+
+      <table border="1" style="width:100%;">
+        
+        <tr>
+          <th>BMI grenzen 19-69 jaar</th>
+          <th>Betekenis</th>
+        </tr>
+
+        <tr>
+          <td>lager dan 18,5</td>
+          <td>Ondergewicht</td>
+        </tr>
+        <tr>
+          <td>Vanaf 18,5 tot 25</td>
+          <td>Gezond gewicht</td>
+        </tr>
+        <tr>
+          <td>Vanaf 25 tot 30</td>
+          <td>Overgewicht</td>
+        </tr>
+        <tr>
+          <td>30 en hoger</td>
+          <td>Ernstig overgewicht</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="table">
+      <p ><b>Uitslag BMI vanaf 70 jaar: </b></p>
+
+      <table border="1" style="width:100%;">
+        <tr>
+          <th>BMI grenzen vanaf 70 jaar</th>
+          <th>Betekenis</th>
+        </tr>
+
+        <tr>
+          <td>lager dan 22</td>
+          <td>Ondergewicht</td>
+        </tr>
+        <tr>
+          <td>Vanaf 22 tot 28</td>
+          <td>Gezond gewicht</td>
+        </tr>
+        <tr>
+          <td>Vanaf 28 tot 30</td>
+          <td>Overgewicht</td>
+        </tr>
+        <tr>
+          <td>30 en hoger</td>
+          <td>Ernstig overgewicht</td>
+        </tr>
+      </table>
+    </div>
+   </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
